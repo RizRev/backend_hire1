@@ -18,7 +18,7 @@ module.exports = async (email, subject, url, name) => {
       from: "Revan",
       to: email,
       subject: `"Thanks For Registering your Account"`,
-      html: `"Hi! This is your verif click <a href=http://localhost:5000/users/verif/${email}/${subject}> Here</a>"`,
+      html: `"Hi! This is your verif click <a href=https://dead-ruby-swordfish-fez.cyclic.app/users/verif/${email}/${subject}> Here</a>"`,
       //   html: "<div>
       // 				<h1>Email Confirmation</h1>
       //                 <h2>Hello ${name}</h2>
